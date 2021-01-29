@@ -1,0 +1,244 @@
+.container {
+  @media screen and (min-width: 320px) {
+    width: 320px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 768px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: 1200px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0px;
+    padding-left: 34px;
+    padding-right: 34px;
+  }
+}
+/*mobile*/
+.hero {
+  @media screen and (max-width: 767px) {
+    background: $background-color;
+    height: 502px;
+    margin-left: auto;
+    margin-right: auto;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  &-title {
+    width: 218px;
+    height: 106px;
+    padding-top: 193px;
+    padding-bottom: 19px;
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 1.15;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $primary-text-color;
+    position: relative;
+  }
+
+  &-span {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 0.95;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $accent-color;
+    position: relative;
+  }
+}
+.hero-ice {
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    margin-left: 81px;
+    margin-top: 92px;
+    z-index: 2;
+  }
+}
+.hero-ellipce {
+  @media screen and (max-width: 767px) {
+    position: absolute;
+    top: 20px;
+    left: 100px;
+    margin-left: 36px;
+    margin-top: 83px;
+  }
+}
+.button {
+  @media screen and (max-width: 767px) {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+    position: relative;
+  }
+}
+
+.name-product {
+  width: 62.4px;
+  height: 24px;
+  left: 20px;
+  top: 318px;
+  margin-right: 8px;
+
+  background: $accent-color;
+  border-radius: 20px;
+}
+.link-product {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: $primary-text-color;
+}
+.name-made {
+  width: 82.8px;
+  height: 24px;
+  left: 90.4px;
+  top: 318px;
+
+  background: $primary-text-color;
+  border-radius: 20px;
+}
+.link-made {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 1.25px;
+  text-align: center;
+
+  color: $accent-color;
+}
+.bioeco {
+  @media screen and (max-width: 767px) {
+    display: none;
+  }
+}
+
+/*tablet*/
+.hero {
+  @media screen and (min-width: 768px) {
+    background: $background-color;
+    height: 399px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.hero-title {
+  @media screen and (min-width: 768px) {
+    width: 162px;
+    height: 80px;
+    padding-top: 102px;
+    padding-bottom: 20px;
+
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 1.13;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $primary-text-color;
+  }
+}
+
+.hero-span {
+  @media screen and (min-width: 768px) {
+    font-family: Titan One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 34px;
+    line-height: 0.9;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: $accent-color;
+  }
+}
+
+.button {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    text-decoration: none;
+  }
+}
+
+.name-product {
+  width: 62.4px;
+  height: 24px;
+  left: 20px;
+  top: 318px;
+  margin-right: 8px;
+
+  background: $accent-color;
+  border-radius: 20px;
+}
+.link-product {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 1.25;
+  text-align: center;
+  text-transform: none;
+  color: $primary-text-color;
+}
+.name-made {
+  width: 82.8px;
+  height: 24px;
+  left: 90.4px;
+  top: 318px;
+
+  background: $primary-text-color;
+  border-radius: 20px;
+}
+.link-made {
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 8px;
+  line-height: 1.25;
+  text-align: center;
+
+  color: $accent-color;
+  text-transform: none;
+}
+
+.bioeco {
+  @media screen and (min-width: 768px) {
+    background-color: aqua;
+
+    width: 124px;
+    height: 126px;
+  }
+}
