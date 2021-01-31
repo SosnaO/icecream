@@ -11,7 +11,7 @@ p {
 .products {
   padding-top: 120px;
   padding-bottom: 100px;
-  width: 100%;
+  // width: 100%;
 
   @media screen and (min-width: 768px) {
     padding-bottom: 110px;
@@ -23,9 +23,14 @@ p {
 
     &.subtitle {
       margin-top: 30px;
+      margin-bottom: 145px;
 
       @media screen and (min-width: 768px) {
-        margin-bottom: 40px;
+        margin-bottom: 150px;
+      }
+
+      @media screen and (min-width: 1200px) {
+        margin-bottom: 260px;
       }
     }
   }
@@ -33,11 +38,6 @@ p {
   &-list {
     display: flex;
     flex-wrap: wrap;
-    margin-top: 145px;
-
-    @media screen and (min-width: 768px) {
-      margin-top: 150px;
-    }
   }
 }
 
@@ -53,7 +53,15 @@ p {
 
     &:not(:last-child) {
       margin-right: 20px;
+
+      @media screen and (min-width: 1200px) {
+        margin-right: 25px;
+      }
     }
+  }
+
+  @media screen and (min-width: 1200px) {
+    width: calc((100% - 50px) / 3);
   }
 
   @media screen and (max-width: 767px) {
@@ -82,7 +90,11 @@ p {
     padding: 160px 40px 40px;
 
     @media screen and (min-width: 768px) {
-      padding: 152px 11px 40px;
+      padding: 150px 10px 40px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      padding: 160px 30px 50px;
     }
 
     &-description {
@@ -95,7 +107,6 @@ p {
 
       @media screen and (min-width: 768px) {
         line-height: 1.76;
-        height: 124px;
       }
 
       @media screen and (min-width: 1200px) {
@@ -112,6 +123,11 @@ p {
       text-align: center;
       letter-spacing: 0.04em;
       text-transform: uppercase;
+
+      @media screen and (min-width: 1200px) {
+        font-size: 30px;
+        line-height: 1.13;
+      }
     }
 
     &-link {
@@ -119,16 +135,28 @@ p {
       align-items: center;
       justify-content: center;
       background-color: $primary-text-color;
+      color: $accent-color;
       border-radius: 50%;
       width: 40px;
       height: 40px;
+      transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+      &:hover,
+      &:focus {
+        background-color: $accent-color;
+        color: $primary-text-color;
+      }
 
       @media screen and (min-width: 768px) {
         margin-top: 10px;
       }
 
+      @media screen and (min-width: 1200px) {
+        margin-top: 30px;
+      }
+
       .arrow {
-        fill: $accent-color;
+        fill: currentColor;
       }
     }
 
@@ -142,8 +170,17 @@ p {
     position: absolute;
     top: -114px;
 
+    @media screen and (max-width: 767px) {
+      max-width: 250px;
+    }
+
     @media screen and (min-width: 768px) {
       top: -104px;
+    }
+
+    @media screen and (min-width: 1200px) {
+      top: -210px;
+      width: 100%;
     }
   }
 }
