@@ -97,27 +97,6 @@
   }
 }
 
-.link-product {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 1.25;
-  text-align: center;
-
-  color: $primary-text-color;
-}
-
-.link-made {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 1.25px;
-  text-align: center;
-
-  color: $accent-color;
-}
 .bioeco {
   @media screen and (max-width: 767px) {
     display: none;
@@ -244,32 +223,7 @@
     text-decoration: none;
   }
 }
-.link-product {
-  @media screen and (min-width: 768px) {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8px;
-    line-height: 1.25;
-    text-align: center;
-    text-transform: none;
 
-    color: $accent-color;
-  }
-}
-.link-made {
-  @media screen and (min-width: 768px) {
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8px;
-    line-height: 1.25;
-    text-align: center;
-
-    color: $accent-color;
-    text-transform: none;
-  }
-}
 .hero-button {
   @media screen and (min-width: 768px) {
     font-family: DM Sans, sans-serif;
