@@ -1,37 +1,3 @@
-/*
-.container {
-  @media screen and (min-width: 320px) {
-    width: 320px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-}
-*/
-
 .container {
   @media screen and (min-width: 768px) {
     width: 768px;
@@ -354,8 +320,10 @@
   }
 }
 .hero-arrow:hover,
-.hero-arrow:focus {
-  color: $primary-text-color;
+.hero-arrow:focus,
+.hero-icon:hover,
+.hero-icon:focus {
+  fill: $primary-text-color;
   background-color: $accent-color;
 }
 .hero-girl {
@@ -363,10 +331,8 @@
     display: block;
     width: 168px;
     height: 133px;
-
     position: absolute;
     margin-left: 580px;
-
     z-index: 2;
     margin-top: 83px;
   }
@@ -441,7 +407,6 @@
     height: 137px;
     padding-top: 171px;
     margin: 0px;
-
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
@@ -505,15 +470,12 @@
     width: 200px;
     height: 78px;
     margin-left: 200px;
-
     margin-top: -150px;
-
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 14px;
     line-height: 1.4;
-
     color: $primary-text-color;
     position: absolute;
     z-index: 2;
@@ -537,7 +499,8 @@
 }
 .hero-button:hover,
 .hero-button:focus {
-  color: $accent-color;
+  color: $primary-text-color;
+  background-color: $accent-color;
   outline: none;
   cursor: pointer;
 }
@@ -547,7 +510,6 @@
     width: 188px;
     height: 191px;
     margin-top: 150px;
-
     position: absolute;
     z-index: 2;
   }
@@ -587,7 +549,6 @@
 
     position: absolute;
     margin-left: 878px;
-
     z-index: 2;
     margin-top: 100px;
   }
