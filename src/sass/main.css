@@ -71,9 +71,9 @@ h3 {
   padding-right: 15px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 480px) {
   .container {
-    width: 320px;
+    width: 480px;
   }
 }
 
@@ -89,635 +89,60 @@ h3 {
   }
 }
 
-/*
-.container {
-  @media screen and (min-width: 320px) {
-    width: 320px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
+.benefits h2 {
+  margin-top: 125px;
+  margin-bottom: 15px;
+}
 
-  @media screen and (min-width: 768px) {
-    width: 768px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
-  }
-
-  @media screen and (min-width: 1200px) {
-    width: 1200px;
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
-    padding-bottom: 0px;
-    padding-left: 15px;
-    padding-right: 15px;
+@media screen and (max-width: 767px) {
+  .benefits h3 {
+    margin-bottom: 25px;
   }
 }
-*/
+
 @media screen and (min-width: 768px) {
-  .container {
-    width: 768px;
-    min-height: 399px;
-    position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+  .benefits h3 {
+    margin-bottom: 50px;
   }
 }
 
 @media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-    min-height: 665px;
-    position: relative;
-    padding-left: 15px;
-    padding-right: 15px;
+  .benefits h3 {
+    margin-bottom: 55px;
   }
 }
 
-/*mobile*/
-@media screen and (max-width: 767px) {
-  .hero {
-    background: #ffb8ca;
-    height: 502px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-  }
+.benefits p {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.85;
 }
 
-@media screen and (max-width: 767px) {
-  .hero-title {
-    width: 218px;
-    height: 106px;
-    padding-top: 193px;
-    margin: 0px;
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 26px;
-    line-height: 1.15;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #ffffff;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .hero-span {
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 48px;
-    line-height: 0.95;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #d41443;
-    padding-top: 19px;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .hero-ice {
-    position: absolute;
-    width: 171px;
-    height: 410px;
-    margin-left: 117px;
-    margin-top: 92px;
-    margin-right: 32px;
-    z-index: 2;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .hero-ellipce {
-    width: 346px;
-    height: 344px;
-    position: absolute;
-    margin-bottom: 75px;
-    margin-left: 36px;
-    margin-top: 83px;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .hero-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    text-decoration: none;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-.link-product {
-  font-family: DM Sans;
+.benefits-description p {
+  margin-top: 45px;
+  margin-bottom: 30px;
+  padding-left: 45px;
+  padding-right: 45px;
   font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 1.25;
-  text-align: center;
-  color: #ffffff;
 }
 
-.link-made {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 1.25px;
-  text-align: center;
-  color: #d41443;
+.benefits-description .special {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  color: #907e82;
+}
+
+@media screen and (min-width: 1200px) {
+  .benefits-description {
+    background-image: url(../images/splashing_milk@2x.jpg);
+    z-index: 1;
+  }
 }
 
 @media screen and (max-width: 767px) {
-  .bioeco {
-    display: none;
+  .benefits-list-item {
+    background-image: url(../images/splashing_milk.jpg);
+    z-index: 1;
   }
-}
-
-/*tablet*/
-@media screen and (min-width: 768px) {
-  .hero {
-    background: #ffb8ca;
-    height: 399px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-title {
-    width: 162px;
-    height: 80px;
-    padding-top: 102px;
-    margin: 0px;
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 22px;
-    line-height: 1.13;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #ffffff;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-span {
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 34px;
-    line-height: 0.9;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #d41443;
-    padding-top: 20px;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-ice {
-    position: absolute;
-    width: 143px;
-    height: 336px;
-    margin-left: 378px;
-    margin-top: 63px;
-    margin-right: 247px;
-    z-index: 2;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-ellipce {
-    position: absolute;
-    width: 324x;
-    height: 322px;
-    margin-bottom: 46px;
-    margin-right: 137px;
-    margin-left: 307px;
-    margin-top: 31px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-button {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    text-decoration: none;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-text {
-    width: 114px;
-    height: 48px;
-    margin-left: 120px;
-    margin-top: -86px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8px;
-    line-height: 1.5;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .hero-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    text-decoration: none;
-  }
-}
-
-.link-product {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 1.25;
-  text-align: center;
-  text-transform: none;
-  color: #d41443;
-}
-
-.link-made {
-  font-family: DM Sans;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 8px;
-  line-height: 1.25;
-  text-align: center;
-  color: #d41443;
-  text-transform: none;
-}
-
-.hero-button {
-  font-family: DM Sans, sans-serif;
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 1.25;
-  color: #d41443;
-  background-color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 7px 15px;
-  margin-right: 8px;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  color: #fff;
-  background-color: #d41443;
-  outline: none;
-}
-
-@media screen and (min-width: 768px) {
-  .bioeco {
-    width: 124px;
-    height: 126px;
-    margin-top: 59px;
-    margin-bottom: 28px;
-    position: absolute;
-    z-index: 2;
-  }
-}
-
-.hero-arrow {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  background-color: #ffffff;
-  border-radius: 50%;
-  width: 18px;
-  height: 18px;
-  margin-left: 124px;
-  margin-top: -30px;
-}
-
-.hero-icon {
-  fill: #d41443;
-}
-
-@media screen and (min-width: 768px) {
-  .hero-girl {
-    display: block;
-    width: 168px;
-    height: 133px;
-    position: absolute;
-    margin-left: 580px;
-    z-index: 2;
-    margin-top: 83px;
-  }
-}
-
-.hero-date {
-  display: block;
-  margin-top: -130px;
-}
-
-.hero-number {
-  font-family: Titan One, sans-serif;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 1.14;
-  text-align: right;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #d41443;
-  margin: 0;
-  position: relative;
-  z-index: 1;
-}
-
-.hero-number:after {
-  display: inline-block;
-  content: '';
-  width: 16px;
-  height: 16px;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  left: 41px;
-  bottom: 15px;
-  z-index: -1;
-  margin-left: 690px;
-}
-
-.hero-name {
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 1.25;
-  color: #fff;
-  text-align: right;
-  margin: 0;
-}
-
-.hero-amouth {
-  position: relative;
-  margin-left: auto;
-  margin-right: 0;
-}
-
-/*
-.bioeco-img {
-  @media screen and (min-width: 768px) {
-    width: 124px;
-    height: 126px;
-    margin-left: 34px;
-    margin-top: 19px;
-    margin-bottom: 28px;
-
-    position: absolute;
-    z-index: 2;
-  }
-}
-*/
-/*desktop*/
-@media screen and (min-width: 1200px) {
-  .hero {
-    background: #ffb8ca;
-    height: 665px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-title {
-    width: 277px;
-    height: 137px;
-    padding-top: 171px;
-    margin: 0px;
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 38px;
-    line-height: 1.15;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #ffffff;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-span {
-    font-family: Titan One;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 58px;
-    line-height: 0.9;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: #d41443;
-    padding-top: 30px;
-    position: relative;
-    z-index: 3;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-ice {
-    position: absolute;
-    width: 143px;
-    height: 336px;
-    margin-left: 378px;
-    margin-top: 63px;
-    margin-right: 247px;
-    z-index: 2;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-ellipce {
-    position: absolute;
-    width: 324x;
-    height: 322px;
-    margin-bottom: 46px;
-    margin-right: 137px;
-    margin-left: 307px;
-    margin-top: 31px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-list {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    text-decoration: none;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-text {
-    width: 114px;
-    height: 48px;
-    margin-left: 120px;
-    margin-top: -86px;
-    font-family: DM Sans;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 8px;
-    line-height: 1.5;
-    color: #ffffff;
-    position: absolute;
-    z-index: 2;
-  }
-}
-
-.hero-button {
-  font-family: DM Sans, sans-serif;
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 1.25;
-  color: #d41443;
-  background-color: #fff;
-  border: none;
-  border-radius: 20px;
-  padding: 7px 15px;
-  margin-right: 8px;
-}
-
-.hero-button:hover,
-.hero-button:focus {
-  color: #fff;
-  background-color: #d41443;
-  outline: none;
-}
-
-@media screen and (min-width: 1200px) {
-  .bioeco {
-    width: 124px;
-    height: 126px;
-    margin-top: 59px;
-    margin-bottom: 28px;
-    position: absolute;
-    z-index: 2;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-arrow {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    background-color: #ffffff;
-    border-radius: 50%;
-    width: 18px;
-    height: 18px;
-    margin-left: 124px;
-    margin-top: -30px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-icon {
-    fill: #d41443;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .hero-girl {
-    display: block;
-    width: 168px;
-    height: 133px;
-    position: absolute;
-    margin-left: 580px;
-    z-index: 2;
-    margin-top: 83px;
-  }
-}
-
-.hero-date {
-  display: block;
-  margin-top: -130px;
-}
-
-.hero-number {
-  font-family: Titan One, sans-serif;
-  font-weight: 400;
-  font-size: 28px;
-  line-height: 1.14;
-  text-align: right;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
-  color: #d41443;
-  margin: 0;
-  position: relative;
-  z-index: 1;
-}
-
-.hero-number:after {
-  display: inline-block;
-  content: '';
-  width: 16px;
-  height: 16px;
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  left: 41px;
-  bottom: 15px;
-  z-index: -1;
-  margin-left: 690px;
-}
-
-.hero-name {
-  font-weight: 400;
-  font-size: 8px;
-  line-height: 1.25;
-  color: #fff;
-  text-align: right;
-  margin: 0;
-}
-
-.hero-amouth {
-  position: relative;
-  margin-left: auto;
-  margin-right: 0;
 }
 /*# sourceMappingURL=main.css.map */
