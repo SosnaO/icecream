@@ -63,6 +63,7 @@
     padding-top: 19px;
     position: relative;
     z-index: 3;
+    margin-top: 30px;
   }
 }
 .hero-ice {
@@ -166,6 +167,7 @@
     padding-top: 20px;
     position: relative;
     z-index: 3;
+    margin-top: 30px;
   }
 }
 .hero-ice {
@@ -221,6 +223,7 @@
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
+    margin-top: 25px;
   }
 }
 
@@ -387,6 +390,7 @@
     padding-top: 30px;
     position: relative;
     z-index: 3;
+    margin-top: 50px;
   }
 }
 .hero-ice {
@@ -416,7 +420,7 @@
     display: flex;
     flex-wrap: wrap;
     text-decoration: none;
-    margin-top: -10px;
+    margin-top: 20px;
   }
 }
 .hero-text {
@@ -504,14 +508,14 @@
     position: absolute;
     margin-left: 878px;
     z-index: 2;
-    margin-top: 100px;
+    margin-top: 95px;
   }
 }
 
 .hero-date {
   @media screen and (min-width: 1200px) {
     display: block;
-    margin-top: -220px;
+    margin-top: -200px;
   }
 }
 .hero-number {
