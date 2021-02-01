@@ -1,0 +1,156 @@
+.contacts .container {
+  @media screen and (max-width: 767px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+.contacts {
+  position: relative;
+  background-color: #fff5f6;
+}
+.card {
+  width: 100%;
+  box-shadow: 0px 8px 30px rgba(212, 20, 67, 0.1);
+  border-radius: 24px;
+  background: $primary-text-color;
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
+      margin-bottom: 20px;
+    }
+  }
+  @media screen and (min-width: 768px) {
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    &:not(:last-child) {
+      margin-right: 20px;
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    width: 300px;
+    &:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+}
+.cards-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: center;
+  }
+}
+.card-container {
+  padding: 43px 20px;
+  @media screen and (min-width: 768px) {
+    padding: 50px 30px;
+  }
+}
+.contact-title {
+  background-color: #f0d1a5;
+  display: inline-block;
+  text-transform: uppercase;
+  border-radius: 4px;
+  margin: 0 0 25px;
+  width: 75px;
+  text-align: center;
+  font-family: $primary-font;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.04em;
+  color: #fff;
+  @media screen and (min-width: 768px) {
+    font-size: 16px;
+    line-height: 1.86;
+  }
+}
+.card:nth-child(2) .contact-title {
+  width: 130px;
+  background-color: $milkshakes-color;
+  @media screen and (min-width: 768px) {
+    width: 138px;
+    line-height: 1.86;
+  }
+}
+.contacts-heading {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.86;
+  letter-spacing: 0.04em;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+.contacts-description {
+  color: $contacts-color;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 1.5;
+  padding-bottom: 32px;
+  margin-top: 10px;
+  margin-bottom: 32px;
+  border-bottom: 1px solid #e1e1e1;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.86;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+.timetable {
+  border-bottom: 1px solid #e1e1e1;
+  padding-bottom: 32px;
+  margin-bottom: 32px;
+}
+.timetable-item:not(:last-child) {
+  margin-bottom: 16px;
+}
+.work-time {
+  font-size: 12px;
+  line-height: 1.5;
+  color: $title-color;
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.83;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+.adress-item {
+  &:not(:last-child) {
+    margin-bottom: 5px;
+  }
+  .link {
+    font-size: 14px;
+    line-height: 1.83;
+    color: $contacts-color;
+  }
+}
+.adress-item .link {
+  @media screen and (min-width: 768px) {
+    font-size: 14px;
+    line-height: 1.83;
+  }
+  @media screen and (min-width: 1200px) {
+    font-size: 16px;
+  }
+}
+.buttons-list {
+  justify-content: center;
+  margin-top: 54px;
+  text-align: center;
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin-top: 54px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 85px;
+  }
+}

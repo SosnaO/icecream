@@ -3,7 +3,6 @@
     width: 768px;
     min-height: 399px;
     position: relative;
-
     padding-left: 15px;
     padding-right: 15px;
   }
@@ -13,12 +12,10 @@
     width: 1200px;
     min-height: 665px;
     position: relative;
-
     padding-left: 15px;
     padding-right: 15px;
   }
 }
-
 /*mobile*/
 .hero {
   @media screen and (max-width: 767px) {
@@ -37,7 +34,6 @@
     height: 106px;
     padding-top: 193px;
     margin: 0px;
-
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
@@ -50,7 +46,6 @@
     z-index: 3;
   }
 }
-
 .hero-span {
   @media screen and (max-width: 767px) {
     font-family: Titan One;
@@ -84,7 +79,6 @@
     height: 344px;
     position: absolute;
     margin-bottom: 75px;
-
     margin-left: 36px;
     margin-top: 83px;
   }
@@ -98,19 +92,16 @@
     z-index: 3;
   }
 }
-
 .bioeco {
   @media screen and (max-width: 767px) {
     display: none;
   }
 }
-
 .hero-button {
   @media screen and (max-width: 767px) {
     display: none;
   }
 }
-
 .hero-girl {
   @media screen and (max-width: 767px) {
     display: none;
@@ -141,7 +132,6 @@
     height: 80px;
     padding-top: 102px;
     margin: 0px;
-
     font-family: Titan One;
     font-style: normal;
     font-weight: normal;
@@ -154,7 +144,6 @@
     z-index: 3;
   }
 }
-
 .hero-span {
   @media screen and (min-width: 768px) {
     font-family: Titan One;
@@ -205,15 +194,12 @@
     width: 114px;
     height: 48px;
     margin-left: 120px;
-
     margin-top: -86px;
-
     font-family: DM Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 8px;
     line-height: 1.5;
-
     color: $primary-text-color;
     position: absolute;
     z-index: 2;
@@ -227,7 +213,6 @@
     margin-top: 25px;
   }
 }
-
 .hero-button {
   @media screen and (min-width: 768px) {
     font-family: DM Sans, sans-serif;
@@ -258,7 +243,6 @@
     z-index: 2;
   }
 }
-
 .hero-arrow {
   @media screen and (min-width: 768px) {
     display: flex;
@@ -295,7 +279,6 @@
     margin-top: 83px;
   }
 }
-
 .hero-date {
   @media screen and (min-width: 768px) {
     display: block;
@@ -349,7 +332,6 @@
     margin-right: 0;
   }
 }
-
 /*desktop*/
 .hero {
   @media screen and (min-width: 1200px) {
@@ -377,7 +359,6 @@
     z-index: 3;
   }
 }
-
 .hero-span {
   @media screen and (min-width: 1200px) {
     font-family: Titan One;
@@ -440,7 +421,6 @@
     z-index: 2;
   }
 }
-
 .hero-button {
   @media screen and (min-width: 1200px) {
     font-family: DM Sans, sans-serif;
@@ -463,7 +443,6 @@
   outline: none;
   cursor: pointer;
 }
-
 .bioeco {
   @media screen and (min-width: 1200px) {
     width: 188px;
@@ -493,26 +472,22 @@
     margin-top: -60px;
   }
 }
-
 .hero-icon {
   @media screen and (min-width: 1200px) {
     fill: $accent-color;
   }
 }
-
 .hero-girl {
   @media screen and (min-width: 1200px) {
     display: block;
     width: 293px;
     height: 232px;
-
     position: absolute;
     margin-left: 878px;
     z-index: 2;
     margin-top: 95px;
   }
 }
-
 .hero-date {
   @media screen and (min-width: 1200px) {
     display: block;

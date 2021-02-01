@@ -1,1 +1,128 @@
-
+.benefits {
+  padding-top: 110px;
+  padding-bottom: 110px;
+  width: 100%;
+  & .benefits-title {
+    text-align: center;
+    text-transform: uppercase;
+  }
+  & p {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 1.85;
+  }
+  & h2 {
+    margin-bottom: 20px;
+  }
+  & h3 {
+    @media screen and (max-width: 767px) {
+      margin-bottom: 25px;
+    }
+    @media screen and (min-width: 768px) {
+      margin-bottom: 50px;
+    }
+    @media screen and (min-width: 1200px) {
+      margin-bottom: 55px;
+    }
+  }
+}
+@media screen and (min-device-pixel-ratio: 2),
+  screen and (-webkit-min-device-pixel-ratio: 2),
+  screen and (-o-min-device-pixel-ratio: 2/1),
+  screen and (min-resolution: 192dpi),
+  screen and (min-resolution: 2dppx) {
+  .benefits-description {
+    background-image: url(../images/splashing_milk@2x.jpg);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .benefits-description {
+    background-image: url(../images/splashing_milk@2x.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 2) {
+    .benefits-description {
+      background-image: url(../images/splashing_milk@2x.jpg);
+    }
+  }
+}
+.benefits-description {
+  padding-bottom: 15px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  & p {
+    margin-top: 45px;
+    margin-bottom: 30px;
+    padding-left: 45px;
+    padding-right: 45px;
+    font-style: normal;
+  }
+  & img {
+    height: auto;
+    @media screen and (min-width: 768px) {
+      max-width: 50%;
+    }
+  }
+  & .special p {
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: $contacts-color;
+  }
+  @media screen and (min-width: 768px) {
+    display: flex;
+    justify-content: space-evenly;
+    width: auto;
+  }
+}
+.special {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 767px) {
+  .special {
+    background-image: url(../images/splashing_milk.jpg);
+  }
+  @media screen and (min-device-pixel-ratio: 1) {
+    .special {
+      background-image: url(../images/splashing_milk.jpg);
+    }
+  }
+}
+.benefits-list {
+  @media screen and (min-width: 768px) {
+    display: flex;
+    width: auto;
+  }
+  & li {
+    padding-top: 30px;
+    & p {
+      padding-right: 100px;
+    }
+  }
+  & h3 {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+}
+.read-more {
+  margin-left: 45px;
+  height: 44px;
+  width: 175px;
+  color: $accent-color;
+  border-radius: 22px;
+  border: none;
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
+  @media screen and (min-width: 780px) {
+    margin-top: 45px;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-top: 15px;
+  }
+  &:hover,
+  &:focus {
+    cursor: pointer;
+  }
+  & .read-more-svg {
+    fill: $accent-color;
+    margin-left: 10px;
+  }
+}
